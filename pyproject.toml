@@ -35,7 +35,7 @@ toml = "^0.10.2"
 red-lavalink = {git = "https://github.com/PredaaA/Red-Lavalink", branch = "feature/dpy-voiceprotocol"}
 discord-ext-menus = {git = "https://github.com/Rapptz/discord-ext-menus"}
 Pillow = "^8.3.2"
-novus = {git = "https://github.com/Voxel-Fox-Ltd/Novus.git"}
+novus = "^0.0.3"
 jishaku = {git = "https://github.com/6days9weeks/jishaku.git"}
 voxelbotutils = {git = "https://github.com/6days9weeks/VoxelBotUtils", branch = "siesta"}
 tabulate = "^0.8.9"
