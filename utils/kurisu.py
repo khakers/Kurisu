@@ -53,7 +53,7 @@ class KurisuBot(commands.AutoShardedBot):
         self._session = None
         self.startup_time = discord.utils.utcnow()
         self.version = "3.2.2"
-        self.db = Database("sqlite:///kurisu.db")
+        self.db = Database("sqlite:///data/kurisu.db")
         self.executed_commands = 0
         self.prefixes = {}
 

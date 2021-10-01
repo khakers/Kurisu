@@ -1,0 +1,6 @@
+.github
+.git
+pm2.json
+*.md
+.gitignore
+.dockerignore

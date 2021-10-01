@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  kurisu:
+    image: kurisu
+    volumes:
+     - kurisu-data:/app/data
+     - ./config.toml:/app.config.toml
+
+volumes:
+  kurisu-data: {}
